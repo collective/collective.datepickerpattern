@@ -1,0 +1,42 @@
+{
+  "name": "datepickerpattern",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@patternslib/patternslib": "9.10.3",
+    "@plone/mockup": "5.4.6",
+    "lucide-react": "0.563.0",
+    "react": "^18.2.0",
+    "react-aria-components": "1.15.1",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.28.5",
+    "@patternslib/dev": "<4",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "babel-jest": "^29.7.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "resolutions": {
+    "@patternslib/patternslib": "<10",
+    "jquery": "<4"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "start": "NODE_ENV=development webpack serve --config webpack.config.js",
+    "watch": "NODE_ENV=development webpack --config webpack.config.js --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "patternslib",
+    "mockup",
+    "plone"
+  ]
+}

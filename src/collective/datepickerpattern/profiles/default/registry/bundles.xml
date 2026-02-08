@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records
+      interface="Products.CMFPlone.interfaces.IBundleRegistry"
+      prefix="plone.bundles/datepickerpattern">
+    <value key="enabled">True</value>
+    <value key="jscompilation">++plone++collective.datepickerpattern/bundles/datepickerpattern-remote.min.js</value>
+  </records>
+
+</registry>
