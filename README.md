@@ -19,7 +19,47 @@
 
 </div>
 
-An addon for Plone adding a new Date and Datetime pickers based on [react-aria-components](https://react-aria.adobe.com/DatePicker)
+An addon for Plone adding a new Date and Datetime pickers based on [react-aria-components](https://react-aria.adobe.com/DatePicker).
+
+In Plone 6 the date and datetime fields are rendered using browser native widgets.
+
+This, although modern and useful, may create unexpected results for users of browsers untranslated to user languages, or users editing content in multilingual site.
+
+Check [this mockup issue](https://github.com/plone/mockup/issues/1328) for the exact use case we had in a project.
+
+With this add-on, the date and datetime fields will use a JavaScript based picker localized to the language the content is crated on (according to Plone, no wild guessing of languages :))
+
+See some examples:
+
+### English
+
+[date picker in english](docs/en.png)
+
+
+### Spanish
+
+[date picker in spanis](docs/es.png)
+
+
+### German
+
+[date picker in german](docs/de.png)
+
+
+### Basque
+
+[date picker in basqie](docs/eu.png)
+
+### Italian
+
+[date picker in italian](docs/it.png)
+
+
+### Norge
+
+[date picker in norge](docs/no.png)
+
+
 
 ## Installation
 

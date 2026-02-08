@@ -42,10 +42,7 @@ module.exports = () => {
         package_json: package_json,
     });
     config.output.path = path.resolve(__dirname, "src/collective/datepickerpattern/browser/static/bundles");
-    config.resolve.alias["pickadate"] = path.resolve(
-        __dirname,
-        "node_modules/pickadate"
-    );
+
     config.resolve.extensions = ['.js', '.jsx', '.json'];
 
     config.plugins.push(
