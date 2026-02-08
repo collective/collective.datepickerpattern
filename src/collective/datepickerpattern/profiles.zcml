@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.datepickerpattern"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.datepickerpattern: Install"
+      description="Package to configure a new collective.datepickerpattern site"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.datepickerpattern: Uninstall"
+      description="Uninstall collective.datepickerpattern setup."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/uninstall"
+      />
+
+  <!-- Hide Uninstall Profile-->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="collective.datepickerpattern"
+      />
+
+
+  <include package=".upgrades" />
+
+</configure>
