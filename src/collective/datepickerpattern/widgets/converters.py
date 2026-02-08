@@ -1,14 +1,15 @@
+from .datetime import ICollectiveDatePickerDateTimeWidget
+from .datetime import ICollectiveDatePickerDateWidget
 from plone.app.z3cform.converters import (
     DatetimeWidgetConverter as BaseDatetimeWidgetConverter,
-    DateWidgetConverter as BaseDateWidgetConverter,
+)
+from plone.app.z3cform.converters import DateWidgetConverter as BaseDateWidgetConverter
+from plone.app.z3cform.converters import (
     DateWidgetToDatetimeConverter as BaseDateWidgetToDatetimeConverter,
 )
-from zope.schema.interfaces import IDate, IDatetime
-from .datetime import (
-    ICollectiveDatePickerDateWidget,
-    ICollectiveDatePickerDateTimeWidget,
-)
 from zope.component import adapter
+from zope.schema.interfaces import IDate
+from zope.schema.interfaces import IDatetime
 
 
 @adapter(IDate, ICollectiveDatePickerDateWidget)

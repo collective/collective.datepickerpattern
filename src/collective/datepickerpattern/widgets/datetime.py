@@ -1,14 +1,9 @@
-from plone.app.z3cform.interfaces import IDatetimeWidget
-from plone.app.z3cform.interfaces import IDateWidget
 from plone.app.z3cform.interfaces import ITextWidget
-from plone.base import PloneMessageFactory as _
+from plone.app.z3cform.widgets.datetime import DateTimeWidgetBase
 from z3c.form.interfaces import IFieldWidget
 from z3c.form.widget import FieldWidget
 from zope.interface import implementer
 from zope.interface import implementer_only
-
-
-from plone.app.z3cform.widgets.datetime import DateTimeWidgetBase
 
 
 class ICollectiveDatePickerDateWidget(ITextWidget):
@@ -46,9 +41,6 @@ class ICollectiveDatePickerDateTimeWidget(ITextWidget):
 #             self._formater_length,
 #         )
 #         return formatter.format(field_value)
-
-from zope.component import getMultiAdapter
-from z3c.form.interfaces import IDataConverter
 
 
 @implementer_only(ICollectiveDatePickerDateWidget)
