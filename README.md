@@ -28,6 +28,9 @@ Install collective.datepickerpattern adding it to your project dependencies
 Go to the add-ons controlpanel and install the product from there.
 
 
+## AI usage declaration
+
+The JavaScript code under `resources` folder has been written mostly with assistance of Google Gemini AI.
 
 
 ## Contribute
@@ -57,8 +60,6 @@ Go to the add-ons controlpanel and install the product from there.
     ```shell
     make install
     ```
-
-
 
 
 ## License

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2026-02-08 19:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3 +16,19 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.datepickerpattern\n"
+
+#: collective/datepickerpattern/profiles.zcml:13
+msgid "Package to configure a new collective.datepickerpattern site"
+msgstr ""
+
+#: collective/datepickerpattern/profiles.zcml:21
+msgid "Uninstall collective.datepickerpattern setup."
+msgstr ""
+
+#: collective/datepickerpattern/profiles.zcml:13
+msgid "collective.datepickerpattern: Install"
+msgstr ""
+
+#: collective/datepickerpattern/profiles.zcml:21
+msgid "collective.datepickerpattern: Uninstall"
+msgstr ""

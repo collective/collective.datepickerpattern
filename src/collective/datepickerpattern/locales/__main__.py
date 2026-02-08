@@ -63,6 +63,7 @@ def main():
         locale_folder_setup(domain)
         _rebuild(domain)
         _sync(domain)
+        _sync("plone")
 
 
 if __name__ == "__main__":
