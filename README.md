@@ -33,31 +33,31 @@ See some examples:
 
 ### English
 
-[date picker in english](docs/en.png)
+![date picker in english](docs/en.png)
 
 
 ### Spanish
 
-[date picker in spanis](docs/es.png)
+![date picker in spanis](docs/es.png)
 
 
 ### German
 
-[date picker in german](docs/de.png)
+![date picker in german](docs/de.png)
 
 
 ### Basque
 
-[date picker in basqie](docs/eu.png)
+![date picker in basqie](docs/eu.png)
 
 ### Italian
 
-[date picker in italian](docs/it.png)
+![date picker in italian](docs/it.png)
 
 
 ### Norge
 
-[date picker in norge](docs/no.png)
+![date picker in norge](docs/no.png)
 
 
 
